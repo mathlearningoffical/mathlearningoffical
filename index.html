@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad | Portfolio</title>
+    <style>
+        /* Modern dark-mode aesthetic */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #161b22;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #58a6ff;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            color: #8b949e;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            color: #58a6ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 0.5rem;
+        }
+
+        .stats-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .stats-grid img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .project-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: transform 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-2px);
+            border-color: #58a6ff;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            color: #f0f6fc;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #21262d;
+            color: #8b949e;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #8b949e;
+            font-size: 0.9rem;
+            border-top: 1px solid #30363d;
+            background-color: #161b22;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ahmad</h1>
+        <p>Student, Creator & Tech Enthusiast</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi there! I'm Ahmad. I'm a student who is passionate about technology, coding, and building digital projects. When I'm not working on programming, you can usually find me playing sports or analyzing how systems work behind the scenes.</p>
+        </section>
+
+        <section id="github-stats">
+            <h2>My Coding Streak & Activity</h2>
+            <div class="stats-grid">
+                <!-- Live Streak Card linked on your website -->
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=mathlearningoffical&theme=dark&hide_border=true" alt="GitHub Streak">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Top 3 Repositories</h2>
+            
+            <!-- Repo 1 -->
+            <div class="project-card">
+                <h3>mathlearningoffical.github.io</h3>
+                <p>The central landing page for my online portfolio, hosted completely free using GitHub Pages.</p>
+                <div><span class="tag">HTML</span> <span class="tag">CSS</span></div>
+                <a class="project-link" href="https://github.com/mathlearningoffical/mathlearningoffical.github.io" target="_blank">View Repository →</a>
+            </div>
+
+            <!-- Repo 2 -->
+            <div class="project-card">
+                <h3>Project Title Two</h3>
+                <p>Description of your second top repository. Talk about what this project calculates, builds, or automates.</p>
+                <div><span class="tag">JavaScript</span></div>
+                <a class="project-link" href="https://github.com/mathlearningoffical" target="_blank">View Repository →</a>
+            </div>
+
+            <!-- Repo 3 -->
+            <div class="project-card">
+                <h3>Project Title Three</h3>
+                <p>Description of your third top repository. Perfect for sharing any scripts, tools, or math projects you create.</p>
+                <div><span class="tag">Markdown</span></div>
+                <a class="project-link" href="https://github.com/mathlearningoffical" target="_blank">View Repository →</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <p>Check out my active work right on GitHub or reach out if you want to collaborate!</p>
+            <p>💻 GitHub Profile: <a href="https://github.com/mathlearningoffical" target="_blank">@mathlearningoffical</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ahmad. Powered by GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
